@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.NavBar_container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #00c9d5;
+}
+.NavBarList{
+    list-style: none;
+    display: flex;
+}
+.NavBarList li{
+    padding:12px;
+    text-align: center;
+    
+}
+.NavBarOffers{
+    color: white;
+}
+.NavBarList li:hover{
+color:white;
+transition: 0.6s;
+}
+/* ##### Arrow#### */
+.Arrow{
+    width: 10px;
+}
+/* $$$$ BurgerMenu $$$$$ */
+.bugerIcon{
+    display: none;
+}
+@media screen and (max-width:480px) {
+    .bugerIcon{
+        display: block;
+        cursor: pointer;
+    }
+    .NavBarMenu{
+        display: none;
+    }
+}

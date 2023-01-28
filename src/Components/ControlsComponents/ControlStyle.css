@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+table{
+    position: absolute;
+    background-color:white;
+    left: 250px;
+    top:43px;
+    box-shadow: -1px 1px 6px -1px rgba(0,0,0,0.75);
+    border-radius: 0px 0px  12px 12px;
+/* display: flex; */
+}
+
+th{
+   
+    padding-right: 18rem;
+    padding-top:10px ;
+    /* border-bottom: 1px solid #ccc; */
+   
+}
+.DropDownList_1{
+   
+    list-style-type: none;
+    font-size: small;
+}
+.DropDownList_1 li{
+    text-align: start;
+
+}
+.DropDownList_1 li:hover{
+    color: yellow;
+}
+/*--------------- */
+.dropBar_2{
+    display: flex;
+    position: absolute;
+    background-color: white;
+    left: 250px;
+    top:43px;
+    box-shadow: -1px 1px 6px -1px rgba(0,0,0,0.75);
+    border-radius: 0px 0px  12px 12px;
+    padding: 15px;
+    padding-top:10px ;
+}
+.dropBar_2List{
+    list-style-type: none;
+    
+}
+.dropBar_2List li{
+    font-size: small;
+    text-align: start;
+}
+h5{
+    padding-right: 13rem;
+}
+
+
+/* ----sideBar------ */
+.SideBarMenu{
+    width: 250px;
+    height: 100vh;
+    background-color: whitesmoke;
+    display: none;
+    /* position: relative;
+    animation-name: example;
+    animation-duration: 4s; */
+    
+}
+
+/* @keyframes example {
+    0% {
+        left: 00px;
+        right: 0px;
+    }
+
+    100% {
+        left: 0px;
+        right: 100px;
+    }
+} */
+
+
+
+
+
+.menus{
+    text-align: center;
+    padding-top: 10px;
+}
+.sideMenu li{
+line-height: 70px;
+padding-left: 25px;
+border-bottom:1px solid rgba(95, 85, 85, 0.1);
+border-left: 3px solid transparent;
+list-style: none;
+}
+.sideMenu li:hover{
+    color:white;
+    background-color: hsl(0, 3%, 74%);
+    border-left-color:black ;
+}
+@media screen and (max-width:480px) {
+    .SideBarMenu{
+        display: block;
+    }
+}

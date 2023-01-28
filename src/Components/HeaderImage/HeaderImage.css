@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.HeaderImageMain{
+    background-color: #d2faff;
+    width: 100%;
+    height: 90vh;
+}
+
+.HeaderImage{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+   
+}
+.HeaderImageList{
+    list-style: none;
+    display: flex;
+    
+}
+.HeaderImageList li{
+   padding-right: 80px;
+   padding-top: 10px;
+}
+@media screen and (max-width:480px) {
+   .inputBase{
+    display: none;
+   }
+   .logoImage{
+    width: 100px;
+   } 
+}
